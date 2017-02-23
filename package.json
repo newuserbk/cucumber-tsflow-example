@@ -1,0 +1,24 @@
+{
+  "name": "cucumber-tsflow-example",
+  "version": "0.0.1",
+  "description": "sample project with cucumber ts-flow",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orieken/cucumber-tsflow-example.git"
+  },
+  "keywords": [
+    "cucumber",
+    "typescript",
+    "cucumber-tsflow"
+  ],
+  "author": "Oscar Rieken",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orieken/cucumber-tsflow-example/issues"
+  },
+  "homepage": "https://github.com/orieken/cucumber-tsflow-example#readme"
+}
