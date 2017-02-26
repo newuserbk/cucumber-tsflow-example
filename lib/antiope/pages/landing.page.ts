@@ -1,12 +1,8 @@
 import { browser, element, by } from 'protractor';
-export class LandingPage {
-
+import { BasePage } from './base.page';
+export class LandingPage extends BasePage {
   message = element(by.css('h1'));
 
-  title(){ return browser.getTitle(); }
-
-  goTo() {
-    browser.get('YOUR URL HERE');
-  }
+  goTo() { browser.get('YOUR URL HERE'); }
 
 }
